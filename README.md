@@ -51,7 +51,6 @@ void validateDate()
 
     scanf("%d/%d/%d", &dd, &mm, &yy);
 
-    /* Check year */
     if (yy < 1900 || yy > 9999)
     {
         printf("Year is not valid.\n");
